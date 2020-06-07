@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MessageApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <!--    <string name="first_fragment_label">First Fragment</string>-->
+    <!--    <string name="second_fragment_label">Second Fragment</string>-->
+    <!--    <string name="next">Next</string>-->
+    <!--    <string name="previous">Previous</string>-->
+
+
+    <string name="About">About</string>
+    <string name="Create">Button</string>
+    <string name="Read">Button</string>
+    <string name="createdoc">CreateDoc</string>
+    <string name="string_createdoc" />
+    <string name="about">about</string>
+    <string name="read">read</string>
+    <string name="create">create</string>
+    <string name="title_activity_options">Options</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="welcome">Welcome</string>
+
+    <string name="login_register">Login/Register</string>
+    <string name="splashimage">splashimage</string>
+    <string name="todo">Todo</string>
+
+</resources>

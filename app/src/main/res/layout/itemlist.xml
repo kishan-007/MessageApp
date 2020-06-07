@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/itemlistbackground"
+    android:padding="2dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintRight_toLeftOf="@id/timeStamp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/timeStamp" />
+
+    <View
+        android:id="@+id/itemlistDivider"
+        android:layout_width="290dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/divider_timestamp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/messageInConstraintlayout"
+        app:layout_constraintTop_toBottomOf="@+id/messageInConstraintlayout" />
+
+    <TextView
+        android:id="@+id/timeStamp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="2dp"
+        android:foregroundGravity="center"
+        android:textColor="@color/divider_timestamp"
+        android:gravity="start"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/messageInConstraintlayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/messageInConstraintlayout"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/itemlistDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image"
+        app:layout_constraintTop_toBottomOf="@+id/timeStamp">
+
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="phone|email"
+            android:gravity="start"
+            android:textColor="@color/Textcolor"
+            android:textColorLink="@color/linkColor"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/messageInConstraintlayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

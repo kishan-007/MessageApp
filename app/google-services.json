@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "157335746810",
+    "firebase_url": "https://just4fun-b6548.firebaseio.com",
+    "project_id": "just4fun-b6548",
+    "storage_bucket": "just4fun-b6548.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157335746810:android:50f6a3c76739e5c5d0b143",
+        "android_client_info": {
+          "package_name": "com.example.just4fun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157335746810-l6eql7e4072l9fcak4liu0u8fh1si003.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.just4fun",
+            "certificate_hash": "69d91a70b33a9163aa97e5864c00d2210e9b8ab1"
+          }
+        },
+        {
+          "client_id": "157335746810-ageos12pejtfrde7res4k9buhijnur06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiJyUDrs5prcvMaYV1lkxQnujnokWmJqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157335746810-ageos12pejtfrde7res4k9buhijnur06.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

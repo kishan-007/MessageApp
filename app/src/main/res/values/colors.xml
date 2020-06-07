@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8BDC39</color>
+    <color name="colorPrimaryDark">#8BDC39</color>
+    <color name="colorwhite">#F8F5F5</color>
+    <color name="Textcolor">#090003</color>
+    <color name="itemlistbackground"> #BFF8C5</color>
+    <color name="mainactivitybackground">#B5F1BB</color>
+    <color name="linkColor">#0D06D8</color>
+    <color name="divider_timestamp">#A8A8BA</color>
+
+</resources>

@@ -1,8 +1,10 @@
 # MessageApp
 MESSAGE APP | APP WHICH CONNECTS ALL
 A blog based android application where anyone can share their thoughts.<br>
-<figure src="![Welcome](https://user-images.githubusercontent.com/60037249/94258578-ac346880-ff4a-11ea-94a8-2f0d36a2ae45.jpeg)"
- caption="Welcome"></figure>
+<figure>
+  <img src=""![Welcome](https://user-images.githubusercontent.com/60037249/94258578-ac346880-ff4a-11ea-94a8-2f0d36a2ae45.jpeg)"" style="width:100%">
+  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+</figure>
 
 ![Info](https://user-images.githubusercontent.com/60037249/94258988-6330e400-ff4b-11ea-8352-96427152f023.jpeg)
 ![MainScreen](https://user-images.githubusercontent.com/60037249/94260204-5f9e5c80-ff4d-11ea-9e46-816a4d8687e4.jpeg)

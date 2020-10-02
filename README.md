@@ -2,7 +2,7 @@
 MESSAGE APP | APP WHICH CONNECTS ALL
 A blog based android application where anyone can share their thoughts.<br>
 <figure>
-  <img src=""![Welcome](https://user-images.githubusercontent.com/60037249/94258578-ac346880-ff4a-11ea-94a8-2f0d36a2ae45.jpeg)"" style="width:100%">
+  <img src="![Welcome](https://user-images.githubusercontent.com/60037249/94258578-ac346880-ff4a-11ea-94a8-2f0d36a2ae45.jpeg)" style="width:100%">
   <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
 </figure>
 
